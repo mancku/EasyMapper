@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMapper", "EasyMapper\EasyMapper.csproj", "{7BEF571E-F043-4CB0-95CA-3D0B43EE9FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyMapper", "EasyMapper\EasyMapper.csproj", "{7BEF571E-F043-4CB0-95CA-3D0B43EE9FFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMapper.Tests", "EasyMapper.Tests\EasyMapper.Tests.csproj", "{FD283777-237E-41D1-9727-5BCEAC035214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyMapper.Tests", "EasyMapper.Tests\EasyMapper.Tests.csproj", "{FD283777-237E-41D1-9727-5BCEAC035214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0315CF08-CD8D-4335-981C-95E93DDA7EF0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
